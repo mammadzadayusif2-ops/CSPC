@@ -96,7 +96,7 @@ y=df["thalach"]
 plt.xlabel("Age")
 plt.ylabel("Maximum heart rate (thalach)")
 plt.title("Age vs. Maximum Heart Rate")
-plt.plot(x,y)
+plt.scatter(x,y)
 plt.savefig("age_thalach.png")
 
 
